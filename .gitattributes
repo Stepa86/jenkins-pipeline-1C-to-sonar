@@ -1,0 +1,12 @@
+﻿# Binary file extensions that should not be modified.
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.axdt binary
+*.addin binary
+*.cf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.dt filter=lfs diff=lfs merge=lfs -text
+*.ospx filter=lfs diff=lfs merge=lfs -text
