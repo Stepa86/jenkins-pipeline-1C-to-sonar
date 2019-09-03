@@ -137,7 +137,7 @@ pipeline {
                         if (fileExists("${EDT_VALIDATION_RESULT}")) {
                             cmd("@DEL \"${EDT_VALIDATION_RESULT}\"")
                         }
-                        cmd("""\
+                        cmd("""
                         set RING_OPTS=-Dfile.encoding=UTF-8 -Dosgi.nl=ru
                         ring edt workspace validate --workspace-location \"${TEMP_CATALOG}\" --file \"${EDT_VALIDATION_RESULT}\" --project-list \"${PROJECT_NAME_EDT}\"
                         """)
@@ -239,9 +239,6 @@ def cmd(command) {
     // при запуске Jenkins не в режиме UTF-8 нужно написать chcp 1251 вместо chcp 65001
     if (isUnix()) { sh "${command}" }
     else {
-        command = command.stripIndent()
-        command = "chcp 65001\n${command}"
-        echo command
-        bat "${command}"
+         bat encoding: 'UTF-8', script: "${command}"
     }
 }
