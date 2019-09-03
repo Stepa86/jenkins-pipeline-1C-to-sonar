@@ -242,6 +242,6 @@ def cmd(command) {
         command = command.stripIndent()
         command = "chcp 65001\n${command}"
         echo command
-        bat command
+        bat "${command}"
     }
 }
