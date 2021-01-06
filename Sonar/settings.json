@@ -56,6 +56,14 @@
 "effortMinutes": 5
 },
 {
+"ruleId": "1032 : Проверка орфографии в именах_ синонимах_ подсказке и комментариях объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
 "ruleId": "1034 : Проверка орфографии текста во встроенной справке",
 "message": "",
 "filePath": "",
@@ -80,12 +88,28 @@
 "effortMinutes": 5
 },
 {
+"ruleId": "1036 : Проверка орфографии в текстах модулей с разбором сложных имен",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
 "ruleId": "104 : Использование директив компиляции",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 5
+},
+{
+"ruleId": "108 : Для всех документов рекомендуется создавать реквизит Комментарий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
 },
 {
 "ruleId": "108 : Для всех документов рекомендуется создавать реквизит Комментарий",
@@ -121,6 +145,22 @@
 },
 {
 "ruleId": "1145 : Проверка наличия встроенной справки у ведущих объектов",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1145 : Проверка наличия встроенной справки у ведущих объектов",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1145 : Проверка наличия встроенной справки у форм",
 "message": "",
 "filePath": "",
 "severity": "INFO",
@@ -216,7 +256,31 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "1206 : Длина кода (номера) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
 "ruleId": "1207 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1207 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1208 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
@@ -315,8 +379,8 @@
 "ruleId": "1248 : Проверка канонического написания ключевых слов",
 "message": "",
 "filePath": "",
-"severity": "MINOR",
-"type": "CODE_SMELL",
+"severity": "SKIP",
+"type": "",
 "effortMinutes": 5
 },
 {
@@ -353,6 +417,14 @@
 },
 {
 "ruleId": "1298 : Локализация строк интерфейса",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1299 : Локализация строк интерфейса",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
@@ -440,12 +512,28 @@
 "effortMinutes": 20
 },
 {
+"ruleId": "1334 : Проверка комментариев к устаревшим процедурам и функциям",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "1339 : Поиск обращения к параметру \"АвтоТест\" в коде модулей",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
 "type": "CODE_SMELL",
 "effortMinutes": 5
+},
+{
+"ruleId": "134 : Проверка необязательных параметров процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
 },
 {
 "ruleId": "134 : Проверка необязательных параметров процедур и функций",
@@ -464,10 +552,66 @@
 "effortMinutes": 20
 },
 {
+"ruleId": "1345 : Поиск конструкций \"Новый Шрифт\"_ \"Новый Цвет\" и \"Новый Рамка\"",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1346 : Поиск конструкций \"Новый Шрифт\"_ \"Новый Цвет\" и \"Новый Рамка\"",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1347 : Поиск конструкций \"Новый Шрифт\"_ \"Новый Цвет\" и \"Новый Рамка\"",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1353 : Проверка английских идентификаторов в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1360 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "1367 : Проверка локализации при форматировании даты_ числа_ Булево",
+"message": "",
+"filePath": "",
+"severity": "SKIP",
+"type": "",
+"effortMinutes": 0
+},
+{
 "ruleId": "141 : Проверка необязательных параметров процедур и функций",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "142 : Проверка необязательных параметров процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 30
 },
@@ -502,6 +646,14 @@
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 10
+},
+{
+"ruleId": "148 : Проверка реквизита \"Ссылка\" в динамических списках",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
 },
 {
 "ruleId": "148 : Проверка реквизита \"Ссылка\" в динамических списках",
@@ -560,6 +712,14 @@
 "effortMinutes": 5
 },
 {
+"ruleId": "160 : Проверка реквизита \"Ссылка\" в динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
 "ruleId": "163 : Запрет на использование буквы ё в текстах модулей",
 "message": "",
 "filePath": "",
@@ -571,7 +731,7 @@
 "ruleId": "164 : Право \"Удаление\" в ролях",
 "message": "",
 "filePath": "",
-"severity": "BLOCKER",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -584,10 +744,18 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "165 : Проверка прав на корень конфигурации",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
 "ruleId": "193 : Интерактивное удаление в ролях",
 "message": "",
 "filePath": "",
-"severity": "BLOCKER",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -595,7 +763,7 @@
 "ruleId": "194 : Интерактивное удаление в ролях",
 "message": "",
 "filePath": "",
-"severity": "BLOCKER",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -603,7 +771,7 @@
 "ruleId": "195 : Интерактивное удаление в ролях",
 "message": "",
 "filePath": "",
-"severity": "BLOCKER",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -611,7 +779,23 @@
 "ruleId": "216 : Проверка случайных латинских символов",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "216 : Проверка случайных латинских символов в именах_ синонимах_ подсказке и комментариях объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "216 : Проверка случайных латинских символов в текстах элементов управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -696,6 +880,14 @@
 "effortMinutes": 5
 },
 {
+"ruleId": "235 : Проверка орфографии в текстах элементов управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
 "ruleId": "236 : Проверка синонима объекта с префиксом \"Удалить\"",
 "message": "",
 "filePath": "",
@@ -720,7 +912,23 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "240 : Структура стандартных областей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "241 : Структура стандартных областей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "246 : Проверка формата комментария",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
@@ -825,6 +1033,14 @@
 },
 {
 "ruleId": "280 : Проверка глухих попыток-исключений",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "282 : Поиск закомментированного кода",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
@@ -1008,7 +1224,23 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "335 : Локализация дат в коде модулей",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "336 : Поиск метода \"РольДоступна()\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "345 : Проверка хранения паролей в реквизитах метаданных",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
@@ -1057,6 +1289,22 @@
 },
 {
 "ruleId": "356 : Проверка орфографии в свойствах реквизитов форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "356 : Проверка орфографии в свойствах реквизитов форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "357 : Проверка орфографии в свойствах реквизитов форм",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
@@ -1120,12 +1368,20 @@
 "effortMinutes": 0
 },
 {
-"ruleId": "374 : Сообщения не должны содержать восклицательных знаков и повелительных тонов",
+"ruleId": "363 : Проверка общих модулей на совмещение клиент/сервер",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 0
+},
+{
+"ruleId": "374 : Сообщения не должны содержать восклицательных знаков и повелительных тонов",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
 },
 {
 "ruleId": "375 : Проверка прав на устаревшие объекты метаданных",
@@ -1145,6 +1401,22 @@
 },
 {
 "ruleId": "386 : Проверка условного оформления в формах и динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "386 : Проверка условного оформления в формах и динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "387 : Проверка условного оформления в формах и динамических списках",
 "message": "",
 "filePath": "",
 "severity": "INFO",
@@ -1232,6 +1504,14 @@
 "effortMinutes": 0
 },
 {
+"ruleId": "404 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
 "ruleId": "405 : Проверка наличия описания для процедур_ функций и переменных",
 "message": "",
 "filePath": "",
@@ -1257,6 +1537,22 @@
 },
 {
 "ruleId": "412 : Проверка свойства \"История выбора при вводе\" у объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "412 : Проверка свойства \"История выбора при вводе\" у объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "414 : Проверка свойств элементов форм_ ссылающихся на объекты метаданных с историей выбора при вводе",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
@@ -1368,6 +1664,14 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "446 : Локализация заголовков элементов форм",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "447 : Локализация подсказок элементов форм",
 "message": "",
 "filePath": "",
@@ -1408,7 +1712,23 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "459 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "463 : Локализация доступных значений полей в запросах макетов \"Схема компоновки данных\"",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "464 : Локализация колонок динамического списка_ получающихся в запросе комбинацией других колонок",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
@@ -1428,6 +1748,14 @@
 "message": "",
 "filePath": "",
 "severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "466 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
 },
@@ -1547,25 +1875,41 @@
 "ruleId": "507 : Проверка прав ролей на объекты других подсистем",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MINOR",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 20
+},
+{
+"ruleId": "508 : Проверка прав ролей на обработки",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
 },
 {
 "ruleId": "511 : Проверка прав ролей на команды",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MAJOR",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 10
 },
 {
 "ruleId": "514 : Проверка использования ролей_ не дающих права на объекты метаданных",
 "message": "",
 "filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "521 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 10
 },
 {
 "ruleId": "524 : Проверка заполненности свойства \"Путь к данным\" у полей динамического списка",
@@ -1573,15 +1917,15 @@
 "filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 10
 },
 {
 "ruleId": "526 : Проверка наличия директив компиляции у процедур (функций) в модулях форм",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MINOR",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 5
 },
 {
 "ruleId": "527 : Проверка использования серверных процедур в качестве обработчиков оповещения",
@@ -1589,7 +1933,7 @@
 "filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 5
 },
 {
 "ruleId": "531 : Проверка избыточного обращения к объекту в коде модуля",
@@ -1635,9 +1979,9 @@
 "ruleId": "547 : Использование инструкций препроцессора в клиент-серверных общих модулях",
 "message": "",
 "filePath": "",
-"severity": "CRITICAL",
+"severity": "MINOR",
 "type": "BUG",
-"effortMinutes": 0
+"effortMinutes": 30
 },
 {
 "ruleId": "549 : Контроль наличия обязательных параметров и значений необязательных параметров в рамках одного модуля",
@@ -1656,7 +2000,31 @@
 "effortMinutes": 0
 },
 {
+"ruleId": "549 : Контроль наличия подсистемы_ общего модуля_ процедуры (функции) и состава параметров",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
 "ruleId": "557 : Поиск не используемых на клиенте экспортных процедур (функций) из общих модулей с признаком \"ВызовСервера\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "557 : Поиск не используемых на клиенте экспортных процедур (функций) из общих модулей с признаком \"ВызовСервера\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "558 : Поиск не используемых на клиенте или на сервере экспортных процедур (функций) из общих модулей с признаком \"КлиентСервер\"",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
@@ -1915,6 +2283,14 @@
 "ruleId": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
 "message": "",
 "filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"message": "",
+"filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 0
@@ -1984,12 +2360,100 @@
 "effortMinutes": 0
 },
 {
+"ruleId": "BeginTransactionBeforeTryCatch",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
 "ruleId": "CanonicalSpellingKeywords",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
 "type": "CODE_SMELL",
 "effortMinutes": 5
+},
+{
+"ruleId": "CodeOutOfRegion",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "CognitiveComplexity",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "CommentedCode",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "CommitTransactionOutsideTryCatch",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "CompilationDirectiveLost",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "CompilationDirectiveNeedLess",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "CreateQueryInCycle",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "CyclomaticComplexity",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "DeletingCollectionItem",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "DeprecatedFind",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 2
 },
 {
 "ruleId": "DeprecatedMessage",
@@ -2000,12 +2464,36 @@
 "effortMinutes": 2
 },
 {
+"ruleId": "DuplicateRegion",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
 "ruleId": "EmptyCodeBlock",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
 "type": "CODE_SMELL",
 "effortMinutes": 10
+},
+{
+"ruleId": "EmptyCodeBlock",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "EmptyRegion",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
 },
 {
 "ruleId": "EmptyStatement",
@@ -2016,12 +2504,52 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "ExtraCommas",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "FormDataToValue",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
 "ruleId": "FunctionShouldHaveReturn",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 10
+},
+{
+"ruleId": "GetFormMethod",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "IdenticalExpressions",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "IfConditionComplexity",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
 },
 {
 "ruleId": "IfElseDuplicatedCodeBlock",
@@ -2048,12 +2576,44 @@
 "effortMinutes": 20
 },
 {
+"ruleId": "IfElseIfEndsWithElse",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "InvalidCharacterInFile",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 1
+},
+{
 "ruleId": "LineLength",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
 "type": "CODE_SMELL",
 "effortMinutes": 20
+},
+{
+"ruleId": "LineLength",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "MagicNumber",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
 },
 {
 "ruleId": "MethodSize",
@@ -2064,12 +2624,68 @@
 "effortMinutes": 60
 },
 {
+"ruleId": "MethodSize",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "MissingCodeTryCatchEx",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "MissingSpace",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "MissingTemporaryFileDeletion",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "MultilingualStringHasAllDeclaredLanguages",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 2
+},
+{
 "ruleId": "NestedConstructorsInStructureDeclaration",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
 "type": "CODE_SMELL",
 "effortMinutes": 10
+},
+{
+"ruleId": "NestedConstructorsInStructureDeclaration",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "NestedStatements",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 30
 },
 {
 "ruleId": "NestedTernaryOperator",
@@ -2080,7 +2696,39 @@
 "effortMinutes": 10
 },
 {
+"ruleId": "NonExportMethodsInApiRegion",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "NonStandardRegion",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
 "ruleId": "NumberOfOptionalParams",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "NumberOfOptionalParams",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "NumberOfParams",
 "message": "",
 "filePath": "",
 "severity": "MINOR",
@@ -2120,6 +2768,22 @@
 "effortMinutes": 30
 },
 {
+"ruleId": "OSUsersMethod",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "PairingBrokenTransaction",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
 "ruleId": "platform",
 "message": "",
 "filePath": "",
@@ -2144,6 +2808,62 @@
 "effortMinutes": 15
 },
 {
+"ruleId": "SeveralCompilerDirectives",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "SpaceAtStartComment",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 1
+},
+{
+"ruleId": "TimeoutsInExternalResources",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "TryNumber",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 2
+},
+{
+"ruleId": "UnknownPreprocessorSymbol",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "UnreachableCode",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "UseLessForEach",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 2
+},
+{
 "ruleId": "UsingCancelParameter",
 "message": "",
 "filePath": "",
@@ -2158,6 +2878,46 @@
 "severity": "MAJOR",
 "type": "CODE_SMELL",
 "effortMinutes": 2
+},
+{
+"ruleId": "UsingFindElementByString",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 2
+},
+{
+"ruleId": "UsingHardcodeNetworkAddress",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "UsingHardcodePath",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "UsingObjectNotAvailableUnix",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "UsingServiceTag",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
 },
 {
 "ruleId": "UsingServiceTag",
@@ -2344,12 +3104,52 @@
 "effortMinutes": 30
 },
 {
+"ruleId": "Возможно_ выражение не является объектом коллекции",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "Возможно_ недостижимое выражение",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
 "ruleId": "Возможно_ неиспользуемая экспортная процедура (функция).",
 "message": "",
 "filePath": "",
 "severity": "MAJOR",
 "type": "BUG",
 "effortMinutes": 10
+},
+{
+"ruleId": "Возможно_ переменная %1 еще не была проинициализирована",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "Возможно_ переменная %1 никогда не была проинициализирована",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "Возможно_ строковый литерал содержит ошибку",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
 },
 {
 "ruleId": "Вызов функции \"КаталогВременныхФайлов()\".",
@@ -2400,6 +3200,14 @@
 "effortMinutes": 0
 },
 {
+"ruleId": "Для команды формы %1 назначен обработчик %1_ но метод с таким именем отсутствует в модуле формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
 "ruleId": "Для параметра \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\" не задан основной язык конфигурации.",
 "message": "",
 "filePath": "",
@@ -2409,6 +3217,14 @@
 },
 {
 "ruleId": "Для события %1 элемента формы %1 назначен обработчик %1, но метод с таким именем отсутствует в модуле формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Для события %1 элемента формы %1 назначен обработчик %1_ но метод с таким именем отсутствует в модуле формы",
 "message": "",
 "filePath": "",
 "severity": "CRITICAL",
@@ -2968,6 +3784,14 @@
 "effortMinutes": 20
 },
 {
+"ruleId": "Неизвестное имя типа %1",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
 "ruleId": "Неизвестный оператор",
 "message": "",
 "filePath": "",
@@ -3480,6 +4304,14 @@
 "effortMinutes": 20
 },
 {
+"ruleId": "Ошибочный порядок грамматических элементов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
 "ruleId": "Параметр \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\" инициализируется переменной_ содержащей нелокализованную строку.",
 "message": "",
 "filePath": "",
@@ -3814,5 +4646,13 @@
 "severity": "CRITICAL",
 "type": "BUG",
 "effortMinutes": 20
+},
+{
+"ruleId": "Элемент с таким именем уже есть в глобальном контексте",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
 }
 ]
